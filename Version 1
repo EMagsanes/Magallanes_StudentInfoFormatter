@@ -1,0 +1,5 @@
+Fname = str(input("Enter the first name: "))
+Lname = str(input("Enter the Last name: "))
+Section = str(input("Enter the Section: "))
+FSubject = str(input("Enter the Favorite subject: "))
+fullname = Fname + Lname
