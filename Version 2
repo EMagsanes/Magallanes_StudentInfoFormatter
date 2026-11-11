@@ -1,0 +1,13 @@
+Fname = str(input("Enter the first name: "))
+Lname = str(input("Enter the Last name: "))
+Section = str(input("Enter the Section: "))
+FSubject = str(input("Enter the Favorite subject: "))
+fullname = Fname + Lname
+#This is the main code that will format the inputs into the proper format. It helps the user be able to format an input without
+them needing to manually format it themselves.
+print("Formatted Outputs: ")
+print("Name: ", Fname.title() , Lname.title())
+print("Name Code: ", Fname.strip().upper() , Lname.strip().upper())
+print("Section: ", Section.upper())
+print("Favorite Subject: ", FSubject.strip().title())
+print("charactec Count: ", fullname.lower().count(fullname))
